@@ -5,13 +5,14 @@
 </head>
 <body>
 <div id="adas"></div>
-<input type="number" id="lsay"/>
+<input type="4" id="l4"/>
 <button onclick="letsgo()">Start</button>
 <script>
 function letsgo(){
-var sa = document.getElementById("lsay").value;
+var sa = document.getElementById("l4").value;
 setInterval(function () {$.post('backend.php', {sa:sa}, function(response){ 
 	 $("#adas").html(response)
 	 
 });  }, 4000);  }
 </script>
+
