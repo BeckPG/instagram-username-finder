@@ -5,7 +5,7 @@
 </head>
 <body>
 <div id="adas"></div>
-<input type="number" id="lsay"/>
+<input type="4l" id="lsay"/>
 <button onclick="letsgo()">Start</button>
 <script>
 function letsgo(){
@@ -15,3 +15,4 @@ setInterval(function () {$.post('backend.php', {sa:sa}, function(response){
 	 
 });  }, 4000);  }
 </script>
+
